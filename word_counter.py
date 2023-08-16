@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-# This program returns how many words are there in a message
+# This program returns how many words are there in a message. It is NOT part of the Python Essentials course from LinuxTips.
 msg = input("Write your message: ")
 word_count = len(msg.rsplit())
 if word_count != 0:
